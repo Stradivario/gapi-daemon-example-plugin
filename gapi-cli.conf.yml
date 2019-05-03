@@ -1,0 +1,4 @@
+config:
+  app:
+    local:
+      START_PLUGIN: true

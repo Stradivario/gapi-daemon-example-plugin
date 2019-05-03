@@ -1,0 +1,19 @@
+{
+  "name": "@gapi/daemon-example-plugin",
+  "version": "0.0.0",
+  "description": "",
+  "main": "build/main.js",
+  "scripts": {
+    "build": "gapi build",
+    "start": "gapi start",
+    "deploy": "rxdi-deploy ./src/main.ts @gapi/example-plugin new-version --beat 3000 --tsconfig --out-dir ./dist"
+  },
+  "author": "Kristiyan Tachev [@Stradivario](https://github.com/Stradivario)",
+  "license": "MIT",
+  "devDependencies": {
+    "@gapi/core": "^1.6.17",
+    "@types/graphql": "^14.2.0",
+    "@types/node": "^11.13.9",
+    "typescript": "^3.4.5"
+  }
+}
