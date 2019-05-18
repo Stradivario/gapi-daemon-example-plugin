@@ -11,7 +11,7 @@
   "author": "Kristiyan Tachev [@Stradivario](https://github.com/Stradivario)",
   "license": "MIT",
   "devDependencies": {
-    "@gapi/core": "^1.6.24",
+    "@gapi/core": "^1.6.26",
     "@types/graphql": "^14.2.0",
     "@types/node": "^11.13.9",
     "typescript": "^3.4.5"
